@@ -11,6 +11,7 @@ app.use(logger);
 
 app.get('/person', validator(), (req, res) => {
 
+   
     res.status(200).json({
 
         name: req.query.name
